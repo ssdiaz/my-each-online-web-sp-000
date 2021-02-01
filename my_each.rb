@@ -9,7 +9,7 @@ def my_each (array)# put argument(s) here
     puts i
 
   while i < array.length
-    puts i
+    puts array
 
   end
 
