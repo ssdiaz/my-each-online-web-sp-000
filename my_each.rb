@@ -11,7 +11,7 @@ def my_each (array)# put argument(s) here
     puts i
     i << new_array
   end
-  new_array
+  return new_array
 end
 
 #puts "hi!!!!"
