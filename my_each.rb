@@ -1,16 +1,12 @@
-#array = ["arel", "jon", "logan", "spencer"]
-
-def my_each (array)# put argument(s) here
-  # code here
+def my_each (array)
   new_array = []
-  # while loop to iterate. yiled each eleement containted in array to block
-  #counter = 0
-  index = 0
-  while index < array.length
-    yield (array[index])
-    new_array << array[index]
-    #counter = counter + 1
-    index = index + 1
+
+  # while loop to iterate. Yield each element containted in array to block
+  i = 0
+  while i < array.length
+    yield (array[i])
+    new_array << array[i]
+    i = i + 1
   end
   new_array
 end
