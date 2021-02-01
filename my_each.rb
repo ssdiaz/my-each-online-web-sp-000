@@ -5,12 +5,12 @@ def my_each (array)# put argument(s) here
   new_array = []
   # while loop to iterate. yiled each eleement containted in array to block
   counter = 0
-  element = 0
+  index = 0
   while counter < array.length
-    yield (array[element])
-    new_array << array[element]
+    yield (array[index])
+    new_array << array[index]
     counter = counter + 1
-    element = element + 1
+    index = index + 1
   end
   new_array
 end
