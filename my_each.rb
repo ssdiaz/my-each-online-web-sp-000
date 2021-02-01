@@ -9,6 +9,3 @@ def my_each (array)
   end
   new_array
 end
-
-
-# ruby my_each.rb
