@@ -11,7 +11,7 @@ def my_each (array)# put argument(s) here
     new_array << i
     i = i + 1
   end
-  return new_array
+  new_array
 end
 
 
