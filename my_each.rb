@@ -8,11 +8,11 @@ def my_each (array)# put argument(s) here
 
   while i < array.length
     yield (array[i])
-    new_array << i 
+    new_array << i
     i = i + 1
   end
   return new_array
 end
 
-#puts "hi!!!!"
+
 # ruby my_each.rb
