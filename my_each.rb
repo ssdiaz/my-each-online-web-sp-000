@@ -5,11 +5,10 @@ def my_each (array)# put argument(s) here
   new_array = []
   # while loop to iterate. yiled each eleement containted in array to block
 
-  yield
-    puts i
+  yield array[1]
 
   while i < array.length
-    puts array
+    puts i
 
   end
 
