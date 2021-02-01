@@ -9,7 +9,7 @@ def my_each (array)# put argument(s) here
 
   while i < array.length
     puts i
-    i << array
+    i << new_array
 
   end
 
