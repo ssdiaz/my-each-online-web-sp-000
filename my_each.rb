@@ -1,3 +1,5 @@
+array = [1,2.3,4]
+
 def my_each (array)# put argument(s) here
   # code here
   new_array = []
@@ -12,3 +14,7 @@ def my_each (array)# put argument(s) here
   end
 
 end
+
+puts "hi!!!!"
+
+# ruby my_each.rb
