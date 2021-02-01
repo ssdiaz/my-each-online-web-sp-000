@@ -8,7 +8,7 @@ def my_each (array)# put argument(s) here
 
   while i < array.length
     yield array[i]
-    i
+    print i
     i << new_array
   end
   return new_array
