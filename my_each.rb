@@ -7,7 +7,7 @@ def my_each (array)# put argument(s) here
 
   while i < array.length
     puts i
-    
+
   end
 
 end
