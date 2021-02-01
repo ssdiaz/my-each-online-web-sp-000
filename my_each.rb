@@ -1,4 +1,4 @@
-#array = [1,2.3,4]
+#array = ["arel", "jon", "logan", "spencer"]
 
 def my_each (array)# put argument(s) here
   # code here
@@ -7,8 +7,8 @@ def my_each (array)# put argument(s) here
   i = 0
 
   while i < array.length
-    yield (array[i])
-    new_array << i
+    yield (array[0])
+    new_array << array[0]
     i = i + 1
   end
   new_array
