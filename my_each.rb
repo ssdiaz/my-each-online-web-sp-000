@@ -10,9 +10,8 @@ def my_each (array)# put argument(s) here
     yield array[i]
     puts i
     i << new_array
-
   end
-
+  new_array
 end
 
 #puts "hi!!!!"
